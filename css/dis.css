@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin: 80px 100px 100px 100px;
+}
+
+.imgbox{
+    margin-top: 50px;
+    padding-top: 10px;
+    
+}
+
+.imgbox:hover .image {
+    opacity: 0.7;
+  }
