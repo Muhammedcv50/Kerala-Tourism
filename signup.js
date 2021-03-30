@@ -13,7 +13,7 @@ var mailac = false;
 var phoneac = false;
 
 
-var str = ["Bad", "Meh..", "Good"]
+var str = ["Bad","Weak","Good"]
 var color = ["Red", "Yellow", "Green"];
 
 function phonevalid() {
