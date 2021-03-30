@@ -41,7 +41,7 @@
                 <input type="password" class="form-control" id="inputpassword" onkeyup="return passstrenght()" >
                 <div id="strenght"></div>
             </div>
-            <p class="instruct">Password should contain minimum 8 characters, atleast one uppercase, atleast one lowercase and atleast one number</p>
+            <p class="instruct">Password should contain minimum 8 characters, atleast one uppercase,one lowercase , one special character and  one number</p>
            <br>
            <div class="col-12">
             <label for="inputPassword2" class="form-label">Re Enter Password</label>
@@ -53,12 +53,10 @@
 
     <div class="clearfix">
       <button onclick="document.location='login.html'" type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="submit" class="signupbtn " onsubmit="return signupvalid()">Sign Up</button>
     </div>
            
-            <!-- <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </div> -->
+            
             </div>
           
           </form>

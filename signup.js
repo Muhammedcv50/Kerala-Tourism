@@ -90,7 +90,7 @@ function checkpass() {
         passerror.innerHTML = "passwords not matching";
         passerror.style.color = "red";
         passerror.style.fontSize = "small";
-        pas2b = false;
+        pass2ac = false;
         return true;
     }
 }
