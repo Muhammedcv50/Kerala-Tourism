@@ -11,11 +11,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  border: 3px;
+  border-color: black;
+  box-shadow: black;
+  background:#f1f1f1 
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -72,11 +74,12 @@ button:hover {
     top: 50%;
     left: 50%;
     z-index: 999;
-    margin-top: 1%;
+    margin-top: 4%;
     
     text-align: center;
     padding: 40px 32px;
     width: 600px;
+  
     transform: translate(-50%,-50%);
     background: rgba(255,255,255,0.04);
     box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
@@ -96,3 +99,19 @@ button:hover {
   }
 }
 
+ 
+input[type=email] ,input[type=number]{
+  width: 100%;
+  background-color: darkolivegreen;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.instruct{
+  font-size: small;font-style:italic;
+  color:brown;
+
+}

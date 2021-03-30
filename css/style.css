@@ -115,6 +115,7 @@ footer h6{
   cursor: pointer;
   font-family: 'Montserrat',sans-serif;
 }
+
 .pass-key:valid ~ .show{
   display: block;
 }
@@ -206,5 +207,18 @@ i span{
     text-decoration: none; 
     color: white;
     font-size: 25px;
-}
+} 
 
+.loginid{
+
+  margin-left:30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left:6%;
+  padding-right:6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color:rgb(101,180,255,0.5) ;
+  border-radius: 18% 20% 18% 20%
+}
