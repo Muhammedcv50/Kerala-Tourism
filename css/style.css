@@ -12,9 +12,12 @@ footer{
    bottom:0px;
    width:100%;
    height:40px;
+   background-color:  rgba(0,0,0,0.7);;
+   /* border-radius: 25px; */
   
 }
 footer h6{
+    
     color: antiquewhite;
 }
 
@@ -222,3 +225,34 @@ i span{
   background-color:rgb(101,180,255,0.5) ;
   border-radius: 18% 20% 18% 20%
 }
+
+.detl{
+  background-color: white;
+  margin: 5%;
+  border-radius: 25px;
+  overflow: auto;
+  padding: 1%;
+  
+}
+.detl img
+{
+  float: left;
+  border-radius: 25px;
+  margin-right:1%;
+ 
+}
+.dis{
+  background: rgba(0,0,0,0.7);
+  color: white;
+  text-align: center;
+  position:fixed;
+  padding:0.5%;
+  padding-top: 1%;
+  margin: 0%;
+  top: 70px;
+  border-radius: 0px 0px 25px 0px ;
+}
+.spc{
+  height: 100px;
+}
+
